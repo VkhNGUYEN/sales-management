@@ -40,7 +40,7 @@ public class ProductServiceImpl implements ProductService {
             theProduct = resultById.get();
         } else {
             // We didn't find the employee
-            throw new RuntimeException("Did not find product's id:" + theId);
+            throw new RuntimeException("Did not find product's id: " + theId);
         }
 
         return theProduct;

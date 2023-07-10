@@ -36,7 +36,7 @@ public class CustomerServiceImpl implements CustomerService {
             theCustomer = resultById.get();
         } else {
             // We didn't find the employee
-            throw new RuntimeException("Did not find customer's id:" + theId);
+            throw new RuntimeException("Did not find customer's id: " + theId);
         }
 
         return theCustomer;

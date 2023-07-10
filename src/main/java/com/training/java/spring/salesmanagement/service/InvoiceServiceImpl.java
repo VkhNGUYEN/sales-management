@@ -35,7 +35,7 @@ public class InvoiceServiceImpl implements InvoiceService {
             theInvoice = resultById.get();
         } else {
             // We didn't find the employee
-            throw new RuntimeException("Did not find invoice's id:" + theId);
+            throw new RuntimeException("Did not find invoice's id: " + theId);
         }
 
         return theInvoice;
